@@ -9,3 +9,14 @@ const randomColor = () => {
     return color;
 };
 
+const startChangingColor = () => {
+    
+}
+const stopChangingColor = () => {
+
+}
+document.querySelector('#start').addEventListener('click', startChangingColor)
+document.querySelector('#stop').addEventListener('click', stopChangingColor)
+    
+
+
